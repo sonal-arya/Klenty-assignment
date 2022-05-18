@@ -34,7 +34,8 @@ const Member = ({ image, description }) => {
         </div>
       </div>
 
-     
+      <button className="carousel  ">	&#8592;</button>
+      <button className="carousel ">	&#8594;</button>
 
     </>
   );

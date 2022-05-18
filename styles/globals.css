@@ -113,21 +113,9 @@ a {
 }
 .btn {
   margin-top: 1.8rem;
-  color: #fff;
-  background: #5856ce;
-  border: none;
-  border-radius: 0.5rem;
-  padding: 1.3rem 2.1rem;
-  font-weight: 600;
-  font-size: 1.4rem;
-  cursor: pointer;
+  float: left;
 }
-.btn:hover {
-  background: #fff;
-  color: #5856ce;
-  border: 0.1rem solid #5856ce;
-  border-radius: 0.5rem;
-}
+
 .banner2 {
   position: relative;
   padding-top: 5.1rem;
@@ -303,3 +291,56 @@ a {
   }
 }
 
+.sub-main{
+  width: 30%;
+  margin:22px;
+  
+}
+.btnStyled{
+  color: #fff;
+  background: #5856ce;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1.3rem 2.1rem;
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+
+
+
+.btnStyled span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btnStyled span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btnStyled:hover span {
+  padding-right: 25px;
+}
+
+.btnStyled:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.carousel{
+  border: none;
+  font-weight: bolder;
+  font-size: 33px;
+  background: #fff;
+  margin: 12px;
+  padding:0px 70px ;
+  }
